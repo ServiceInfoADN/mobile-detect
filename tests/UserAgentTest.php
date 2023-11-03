@@ -6,10 +6,7 @@ use Detection\Exception\MobileDetectException;
 use Detection\MobileDetect;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @license     MIT License https://github.com/serbanghita/Mobile-Detect/blob/master/LICENSE.txt
- * @link        http://mobiledetect.net
- */
+
 final class UserAgentTest extends TestCase
 {
     protected MobileDetect $detect;

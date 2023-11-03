@@ -27,7 +27,7 @@ class Cache implements CacheInterface
     /**
      * @throws CacheException
      */
-    public function get(string $key, mixed $default = null): CacheItem|null
+    public function get(string $key, mixed $default = null): mixed
     {
         if (empty($key)) {
             throw new CacheException('Invalid cache key');

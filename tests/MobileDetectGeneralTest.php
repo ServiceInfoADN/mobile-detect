@@ -6,10 +6,7 @@ use Detection\Exception\MobileDetectException;
 use Detection\MobileDetect;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @license     MIT License https://github.com/serbanghita/Mobile-Detect/blob/master/LICENSE.txt
- * @link        http://mobiledetect.net
- */
+
 final class MobileDetectGeneralTest extends TestCase
 {
     public function testClassExists()
@@ -118,7 +115,7 @@ final class MobileDetectGeneralTest extends TestCase
                 'HTTP_ACCEPT_LANGUAGE'  => 'en-us,en;q=0.5',
                 'HTTP_ACCEPT_ENCODING'  => 'gzip, deflate',
                 'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
-                'HTTP_REFERER'          => 'http://mobiledetect.net',
+                'HTTP_REFERER'          => '',
                 'HTTP_PRAGMA'           => 'no-cache',
                 'HTTP_CACHE_CONTROL'    => 'no-cache',
                 'REMOTE_ADDR'           => '11.22.33.44',
@@ -148,7 +145,7 @@ final class MobileDetectGeneralTest extends TestCase
             [[
                 'SERVER_SOFTWARE'       => 'Apache/2.2.15 (Linux) Whatever/4.0 PHP/5.2.13',
                 'REQUEST_METHOD'        => 'POST',
-                'HTTP_HOST'             => 'home.ghita.org',
+                'HTTP_HOST'             => '',
                 'HTTP_X_REAL_IP'        => '1.2.3.4',
                 'HTTP_X_FORWARDED_FOR'  => '1.2.3.5',
                 'HTTP_CONNECTION'       => 'close',
@@ -157,7 +154,7 @@ final class MobileDetectGeneralTest extends TestCase
                 'HTTP_ACCEPT_LANGUAGE'  => 'en-us,en;q=0.5',
                 'HTTP_ACCEPT_ENCODING'  => 'gzip, deflate',
                 'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
-                'HTTP_REFERER'          => 'http://mobiledetect.net',
+                'HTTP_REFERER'          => '',
                 'HTTP_PRAGMA'           => 'no-cache',
                 'HTTP_CACHE_CONTROL'    => 'no-cache',
                 'REMOTE_ADDR'           => '11.22.33.44',
