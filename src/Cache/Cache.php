@@ -2,7 +2,7 @@
 
 namespace Detection\Cache;
 
-use Psr\SimpleCache\CacheInterface;
+use Detection\Cache\Interface\CacheInterface;
 
 class Cache implements CacheInterface
 {

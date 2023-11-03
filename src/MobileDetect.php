@@ -8,7 +8,7 @@ use BadMethodCallException;
 use Detection\Cache\Cache;
 use Detection\Cache\CacheException;
 use Detection\Exception\MobileDetectException;
-use Psr\Cache\InvalidArgumentException;
+use Detection\Cache\Interface\InvalidArgumentException;
 
 /**
  * Auto-generated isXXXX() magic methods.
